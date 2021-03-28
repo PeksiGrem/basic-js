@@ -1,6 +1,7 @@
 const CustomError = require("../extensions/custom-error");
 
 module.exports = function getSeason(date) {
+  
   let month = date.getMonth() + 1;
   if (month === 12 || month === 1 || month === 2) {
     return "winter";
